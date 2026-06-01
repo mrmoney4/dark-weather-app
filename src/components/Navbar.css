@@ -1,0 +1,34 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.navbar h1{
+  color: white;
+  font-size: 32px;
+}
+
+.navbar ul{
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.navbar li{
+  color: white;
+  cursor: pointer;
+}
+
+.signup-btn{
+  padding: 14px 28px;
+  background: #5f95c5;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}

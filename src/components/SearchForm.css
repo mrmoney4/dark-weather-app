@@ -1,0 +1,33 @@
+.search-form{
+  display: flex;
+  gap: 12px;
+}
+
+.search-form input,
+.search-form button{
+  padding: 15px 20px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  background: #12283c;
+}
+
+.search-form input{
+  min-width: 220px;
+}
+
+.search-form button{
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .search-form{
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-form input,
+  .search-form button{
+    width: 100%;
+  }
+}

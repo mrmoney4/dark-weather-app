@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dark-weather-app/static/css/main.aa764b51.css",
+    "main.js": "/dark-weather-app/static/js/main.e5d61e60.js",
+    "index.html": "/dark-weather-app/index.html",
+    "main.aa764b51.css.map": "/dark-weather-app/static/css/main.aa764b51.css.map",
+    "main.e5d61e60.js.map": "/dark-weather-app/static/js/main.e5d61e60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa764b51.css",
+    "static/js/main.e5d61e60.js"
+  ]
+}

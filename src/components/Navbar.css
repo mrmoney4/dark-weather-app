@@ -5,7 +5,7 @@
   position: relative;
   z-index: 2;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 16px;
 }
 
 .navbar h1{
@@ -15,13 +15,16 @@
 
 .navbar ul{
   display: flex;
-  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
   list-style: none;
 }
 
 .navbar li{
   color: white;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .signup-btn{
@@ -31,4 +34,23 @@
   border: none;
   border-radius: 12px;
   cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .navbar{
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+
+  .navbar ul{
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .signup-btn{
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
 }

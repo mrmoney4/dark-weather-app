@@ -7,8 +7,8 @@
 
 .hero h2{
   color: white;
-  font-size: 52px;
-  line-height: 1.4;
+  font-size: clamp(2.5rem, 4vw, 4.5rem);
+  line-height: 1.2;
 }
 
 .hero span{
@@ -16,7 +16,11 @@
 }
 
 @media (max-width: 760px) {
+  .hero{
+    margin-top: 40px;
+  }
+
   .hero h2{
-    font-size: 28px;
+    font-size: 2rem;
   }
 }

@@ -8,6 +8,10 @@
   flex-wrap: wrap;
 }
 
+.controls > *{
+  min-width: 160px;
+}
+
 .controls button,
 .controls select{
   padding: 15px 20px;

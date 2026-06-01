@@ -1,6 +1,7 @@
 .search-form{
   display: flex;
   gap: 12px;
+  width: 100%;
 }
 
 .search-form input,
@@ -13,11 +14,13 @@
 }
 
 .search-form input{
-  min-width: 220px;
+  flex: 1;
+  min-width: 0;
 }
 
 .search-form button{
   cursor: pointer;
+  white-space: nowrap;
 }
 
 @media (max-width: 760px) {

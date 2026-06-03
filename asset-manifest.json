@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/dark-weather-app/static/css/main.aa764b51.css",
-    "main.js": "/dark-weather-app/static/js/main.e5d61e60.js",
+    "main.css": "/dark-weather-app/static/css/main.00b5b394.css",
+    "main.js": "/dark-weather-app/static/js/main.913fe369.js",
+    "static/media/rainy.svg": "/dark-weather-app/static/media/rainy.90dc8517319d990ebcf329dbe4d2e165.svg",
+    "static/media/cloudy.svg": "/dark-weather-app/static/media/cloudy.80a26bdd32a7e804a5acc15b57e69ef6.svg",
+    "static/media/sunny.svg": "/dark-weather-app/static/media/sunny.51d45539f527dde28e0d6fbe9c7c6d1e.svg",
     "index.html": "/dark-weather-app/index.html",
-    "main.aa764b51.css.map": "/dark-weather-app/static/css/main.aa764b51.css.map",
-    "main.e5d61e60.js.map": "/dark-weather-app/static/js/main.e5d61e60.js.map"
+    "main.00b5b394.css.map": "/dark-weather-app/static/css/main.00b5b394.css.map",
+    "main.913fe369.js.map": "/dark-weather-app/static/js/main.913fe369.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa764b51.css",
-    "static/js/main.e5d61e60.js"
+    "static/css/main.00b5b394.css",
+    "static/js/main.913fe369.js"
   ]
 }

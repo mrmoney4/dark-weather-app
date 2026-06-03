@@ -9,13 +9,21 @@ function Controls({ children, onClear }) {
         Clear
       </button>
       <select>
-        <option>Coldest</option>
+        <option id='all weather'>All weather</option>
+        <option id='coldest'>Coldest</option>
+        <option id='hottest'>Hottest</option>
       </select>
       <select>
-        <option>10°C - 50°C</option>
+        <option id='all temperature'>All temperature</option>
+        <option id='10°C-20°C'>Cold</option>
+        <option id='20°C-30°C'>Moderate</option>
+        <option id='30°C-40°C'>Hot</option>
       </select>
       <select>
-        <option>Rainy</option>
+        <option id='all conditions'>All conditions</option>
+        <option id='rainy'>Cloudy</option>
+        <option id='sunny'>Rainy</option>
+        <option id='cloudy'>Sunny</option>
       </select>
     </div>
   );

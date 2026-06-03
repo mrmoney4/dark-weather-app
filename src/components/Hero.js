@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div className='hero'>
       <h2>
-        seeing the weather of the whole world
+        Seeing the weather of the whole world
         <br />
         with <span>Dark Weather!</span>
       </h2>

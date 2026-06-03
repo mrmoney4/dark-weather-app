@@ -6,7 +6,7 @@ function Navbar() {
     <nav className='navbar'>
       <h1>Dark Weather</h1>
       <ul>
-        <li>Home</li>
+        <li><b>Home</b></li>
         <li>Download App</li>
         <li>Contact Us</li>
       </ul>
